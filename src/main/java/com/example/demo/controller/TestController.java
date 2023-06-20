@@ -14,8 +14,8 @@ public class TestController {
 		public String testController() {
 			return "Hello World!(안녕하세요!)";
 		}
-		@GetMapping("/{id")
-		public String testControllerWithPathVariables(@PathVariable(required =false) int id) {
+		@GetMapping("/{id}")
+		public String testControllerWithPathVariables(@PathVariable(required =false) int id){
 			return "Hello World! ID " + id;
 		}
 		
